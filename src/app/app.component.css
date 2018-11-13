@@ -1,0 +1,43 @@
+
+.calcbody{
+    background:#306;
+    height: 150px;
+    width:210px;
+    padding:10px;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius:12px;
+}
+.thinborder{
+border: 1px solid whitesmoke;
+width: 200px;
+height: 50px;
+background: rgb(12, 12, 12);
+}
+
+.output{
+    background: black;
+    font-family: Courier New, Courier, monospace;
+    color: red;
+    text-align: right;
+    padding: 5px;
+    font-size: 10px;
+}
+.calcbuttons{
+    padding:10px;
+}
+
+.numberbutton{
+    width: 40px;
+}
+
+.operationbutton{
+    width:40px;
+}
+
+.clearbutton{
+    width:40px;
+}
+
+.equalsbutton{
+    width:40px;
+}

@@ -1,0 +1,28 @@
+<div class="main">
+  <div class="calcbody">
+    <div class="thinborder">
+      <p class= "output" >{{outputscreen}}<br>{{operation}}</p>
+    </div>
+    <div class="calcbuttons">
+      <button name="btn1" value="1" class="numberbutton" (click)="output(1)">1</button>
+      <button name="btn2" value="2" class="numberbutton" (click)="output(2)">2</button>
+      <button name="btn3" value="3" class="numberbutton" (click)="output(3)">3</button>
+      <button name="btnplus" value="+" class="operationbutton"  (click)="operator('+')">+</button>
+      <button name="btn4" value="4" class="numberbutton"  (click)="output(4)">4</button>
+      <button name="btn5" value="5" class="numberbutton" (click)="output(5)">5</button>
+      <button name="btn6" value="6" class="numberbutton"  (click)="output(6)">6</button>
+      <button name="btnsubtract" value="-" class="operationbutton"  (click)="operator('-')">-</button>
+      <button name="btn7" value="7" class="numberbutton"  (click)="output(7)">7</button>
+      <button name="btn8" value="8" class="numberbutton"  (click)="output(8)">8</button>
+      <button name="btn9" value="9" class="numberbutton"  (click)="output(9)">9</button>
+      <button name="btnmultiply" value="*" class="operationbutton"  (click)="operator('*')">*</button>
+      <button name="btnzero" value="0" class="numberbutton"  (click)="output(0)">0</button>
+      <button name="clearbutton" value="clear" class="clearbutton" (click)= "operationclear()">CLR</button>
+      <button name="btnequals" value="=" class="equalsbutton" (click)="operationequal()">=</button>
+      <button name="btndivide" value="/" class="operationbutton" (click)="operator('/')">/</button>
+      
+     
+    </div>
+  </div>
+</div>
+  
